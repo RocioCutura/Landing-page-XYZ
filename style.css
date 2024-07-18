@@ -72,15 +72,44 @@ nav a:hover {
     background-color: #e67e22; /* Naranja más oscuro */
 }
 
+/* Estilos para las secciones de recursos */
+main {
+    padding: 20px 40px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #1A5276; /* Azul oscuro */
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
 /* Estilos para el pie de página */
 footer {
     background-color: #1A5276; /* Azul oscuro */
     color: white;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Estilos responsivos para pantallas pequeñas */
